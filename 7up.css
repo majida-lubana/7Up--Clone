@@ -1,0 +1,186 @@
+body{
+    margin:0;
+}
+.logo {
+    display:flex;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    height: 110px;
+    width: 100%;
+    size: 50px;
+    background-color: rgb(247, 154, 131);
+    position: fixed;
+    top:0;
+    z-index: 100;
+    border-bottom: 1px solid white;
+}
+.logo img {
+    width: 80px;
+    background-color: rgb(247, 154, 131);
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 3;
+
+}
+.grid-container {
+    padding-left: 636px;
+    padding-top: 85px;
+    display: flex;
+    margin-top: -50px;
+    gap: 30px;
+    font-family: roboto;
+    font-size: 20px;
+    color:white;
+    cursor:pointer;
+}
+.fa-brands {
+    color: white;
+    cursor:pointer;
+    text-align: center;
+}
+.image1 {
+    width: 100%;                
+    height: auto;                
+    font-family: bold;
+    border-top: 1px solid white;
+}
+.text-banner-h1 {
+    position: absolute;            /* Positions the text over the image */
+    top: 35%;                      /* Adjust as needed to position in outer part */
+    right: 65%; 
+    padding-top: 90px; 
+    color: white;                
+    font-size: 4.4vw;
+    font-family:'korolev';
+}
+.button-banner1{
+    color: white;
+    background: transparent;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-right: 29px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    font-size: 0.9rem;
+    font-family: 'korolev';
+    border: 2px solid white;
+    border-style: solid;
+    cursor: pointer;
+    text-align: center; 
+    opacity: 0.7s;
+}
+.button-banner1:hover {
+    opacity: 0.6s;
+}
+
+.image2 {
+    width: 100%;
+    margin-top: -50px;
+}
+.recipes-text-data {
+    width: 40%;
+    border-radius: 100px;
+    background-color: rgba(10,91,43,0.8);
+    height: 200px;
+    right: 30%;
+    position: absolute;
+    top: 155%;
+    
+}
+.text-banner-h2 {
+    position: absolute;
+    top:15%;
+    right:40%;
+    color: white;
+}
+.text-p1{
+    position:absolute;
+    top: 40%;
+    right: 20%;
+    font-family:'Bold', sans-serif;
+    color: white;
+}
+.button-banner2{
+    border: 2px solid white;
+    position: absolute;
+    background: transparent;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    top: 70%;
+    right: 33%;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+.image3 {
+    width: 100%;
+    margin-top: -50px;
+}
+.recipes-text-data1 {
+    width: 45%;
+    border-radius: 100px;
+    background-color: rgba(10,91,43,0.8);
+    height: 200px;
+    right: 27%;
+    position: absolute;
+    top: 250%;
+    
+}
+.text-banner-h3 {
+    position: absolute;
+    top:15%;
+    right:25%;
+    color: white;
+}
+.text-p2{
+    position:absolute;
+    top: 40%;
+    right: 5%;
+    font-family:'Bold', sans-serif;
+    color: white;
+}
+.button-banner3{
+    position: absolute;
+    background: transparent;
+    border:2px solid white;
+    border-radius: 40px;
+    color: white;
+    line-height: 2.8vh;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    top: 70%;
+    right: 40%;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+.footer{
+background-color: rgb(90, 83, 83);
+width: 100%;
+height: 180px;
+margin-top: -20px;
+}
+.utility{
+    display: flex;
+    list-style-type: none; 
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+ 
+}
+.utility li{
+    margin: 10px;
+}
+.footer-p{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
